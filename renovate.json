@@ -1,6 +1,23 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
+  "extends": ["config:base"],
+  "automerge": false,
+  "branchName": "develop",
+  "timezone": "Europe/Paris",
+  "schedule": ["on the first day of the week"],
+  "scheduleType": "cron",
+  "scheduleRules": [
+    {
+      "timezone": "Europe/Paris",
+      "dayOfWeek": [2],
+      "time": "00:00"
+    }
+  ],
+  "packageRules": [
+    {
+      "updateTypes": ["minor"],
+      "automerge": false,
+      "packageFile": "package.json"
+    }
   ]
 }
