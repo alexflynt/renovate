@@ -5,7 +5,6 @@
   "branchName": "develop",
   "timezone": "Europe/Paris",
   "schedule": ["after 8am on tuesday"],
-  "scheduleType": "cron",
   "scheduleRules": [
     {
       "timezone": "Europe/Paris",
