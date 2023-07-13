@@ -4,13 +4,13 @@
   "automerge": false,
   "branchName": "develop",
   "timezone": "Europe/Paris",
-  "schedule": ["on the first day of the week"],
+  "schedule": ["after 8am on tuesday"],
   "scheduleType": "cron",
   "scheduleRules": [
     {
       "timezone": "Europe/Paris",
       "dayOfWeek": [2],
-      "time": "00:00"
+      "time": "08:00"
     }
   ],
   "packageRules": [
