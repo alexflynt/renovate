@@ -15,7 +15,7 @@
   ],
   "packageRules": [
     {
-      "updateTypes": ["minor"],
+      "updateTypes": ["patch"],
       "automerge": false,
       "packageFile": "package.json"
     }
