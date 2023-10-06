@@ -21,5 +21,10 @@
     ],
     "groupName": "all dependencies",
     "groupSlug": "all",
-    "labels": ["dependency-update"]
+    "labels": ["dependency-update"],
+    "groups": {
+        "all dependencies": {
+            "single": true
+        }
+    }
 }
