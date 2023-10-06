@@ -16,15 +16,18 @@
         {
             "matchUpdateTypes": ["patch"],
             "automerge": false,
-            "packageFile": "package.json"
+            "packageFile": "package.json",
+            "groupName": "all dependencies",
+            "groupSlug": "all",
+            "matchPackagePatterns": [
+                "*"
+            ]
         }
     ],
     "groupName": "all dependencies",
     "groupSlug": "all",
-    "labels": ["dependency-update"],
-    "groups": {
-        "all dependencies": {
-            "single": true
-        }
-    }
+    "lockFileMaintenance": {
+        "enabled": false
+    },
+    "labels": ["dependency-update"]
 }
