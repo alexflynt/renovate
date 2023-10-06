@@ -9,6 +9,7 @@
     },
     "automerge": false,
     "branchPrefix": "renovate",
+    "baseBranches": ["develop"],
     "timezone": "Europe/Paris",
     "schedule": ["every weekday"]
     "packageRules": [
