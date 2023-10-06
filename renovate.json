@@ -1,9 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-        "config:base",
-        "group:monorepos"
-    ],
+    "extends": ["config:base", "group:monorepos"],
     "major": {
         "enabled": false
     },
@@ -11,23 +8,19 @@
         "enabled": false
     },
     "automerge": false,
-    "branchPrefix": "renovate",
-    "baseBranches": [
-        "main"
-    ],
+    "branchPrefix": "renovate/",
+    "baseBranches": ["main"],
     "timezone": "Europe/Paris",
-    "schedule": ["after 8am every weekday"],
+    "schedule": ["every day after 8am"],
     "packageRules": [
         {
-            "matchUpdateTypes": [
-                "patch"
-            ],
+            "matchUpdateTypes": ["patch"],
             "automerge": false,
             "packageFile": "package.json"
         }
     ],
+    "groupName": "all dependencies",
+    "groupSlug": "all",
     "prConcurrentLimit": 1,
-    "labels": [
-        "review-needed"
-    ]
+    "labels": ["dependency-update"]
 }
