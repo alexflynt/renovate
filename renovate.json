@@ -1,0 +1,23 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:base", "group:monorepos"],
+    "major": {
+        "enabled": false
+    },
+    "minor": {
+        "enabled": false
+    },
+    "automerge": false,
+    "branchName": "develop",
+    "timezone": "Europe/Paris",
+    "schedule": ["after 8am on tuesday"],
+    "packageRules": [
+        {
+            "matchUpdateTypes": ["patch"],
+            "automerge": false,
+            "packageFile": "package.json"
+        }
+    ],
+    "prConcurrentLimit": 1,
+    "labels": ["review-needed"]
+}
