@@ -8,7 +8,7 @@
         "enabled": false
     },
     "automerge": false,
-    "branchName": "develop",
+    "branchPrefix": "renovate",
     "timezone": "Europe/Paris",
     "schedule": ["after 8am on tuesday"],
     "packageRules": [
