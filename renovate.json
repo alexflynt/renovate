@@ -10,7 +10,7 @@
     "automerge": false,
     "branchPrefix": "renovate",
     "timezone": "Europe/Paris",
-    "schedule": ["after 8am on tuesday"],
+    "schedule": ["every weekday"]
     "packageRules": [
         {
             "matchUpdateTypes": ["patch"],
