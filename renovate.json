@@ -16,9 +16,7 @@
         "main"
     ],
     "timezone": "Europe/Paris",
-    "schedule": [
-        "every weekday"
-    ],
+    "schedule": ["after 8am every weekday"],
     "packageRules": [
         {
             "matchUpdateTypes": [
