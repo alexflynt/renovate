@@ -9,9 +9,9 @@
     },
     "automerge": false,
     "branchPrefix": "renovate/",
-    "baseBranches": ["main"],
+    "baseBranches": ["develop"],
     "timezone": "Europe/Paris",
-    "schedule": ["every day after 8am"],
+    "schedule": ["after 8am every weekday"],
     "packageRules": [
         {
             "matchUpdateTypes": ["patch"],
