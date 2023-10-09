@@ -15,6 +15,7 @@
     "packageRules": [
         {
             "matchUpdateTypes": ["patch"],
+            "updateTypes": ["versioning"],
             "automerge": false,
             "packageFile": "package.json",
             "groupName": "all dependencies",
