@@ -16,7 +16,7 @@
         "@material-ui/icons": "4.11.2",
         "@material-ui/lab": "4.0.0-alpha.60",
         "@material-ui/pickers": "3.3.10",
-        "@material-ui/styles": "4.10.0",
+        "@mui/styles": "5.0.0",
         "@sentry/react": "^7.1.1",
         "@sentry/tracing": "^7.1.1",
         "@stripe/react-stripe-js": "^1.4.1",
